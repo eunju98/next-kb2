@@ -1,3 +1,4 @@
+import { ChevronRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -37,6 +38,15 @@ export default function Home() {
               </Link>
             </li>
           </ul>
+        </div>
+      </section>
+
+      <section>
+        <div className="container">
+          <h2>
+            <Link href="#">곽재선의 창<ChevronRight /> </Link>
+          </h2>
+          <div></div>
         </div>
       </section>
     </div>
